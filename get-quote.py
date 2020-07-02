@@ -8,9 +8,11 @@ def primary():
 
   # last = 13
   last = len(quotes) - 1
-  rnd = random.randint(0, last)
+  rnd = random.randint(1, last)
   # print(quotes[13])
-  print(quotes[rnd])
+  #print(quotes[rnd])
+  # print("Dear coder, here's a quote for you: " + quotes[rnd])
+  print("Dear coder, here's a quote for you from " + (quotes[0]) + " 🌻🌻🌻 " + quotes[rnd])
 
 if __name__== "__main__":
   primary()
